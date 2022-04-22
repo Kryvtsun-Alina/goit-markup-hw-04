@@ -301,21 +301,23 @@ img {
   display: flex;
   justify-content: center;
 }
-.client-icon {
+.client-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  vertical-align: middle;
+  fill: currentColor;
+  fill: #afb1b8;
 
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
 }
-.client-logo {
-  fill: #afb1b8;
-}
 .client-icon:not(:last-child) {
   margin-right: var(--typical-margin--);
+}
+.client-icon:hover .client-logo {
+  fill: var(--accent-color--);
+  border: 1px solid var(--accent-color--);
 }
 /*footer*/
 .footer {
