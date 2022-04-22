@@ -278,12 +278,36 @@ img {
   letter-spacing: 0.03em;
 }
 .team-text {
+  margin-bottom: 16px;
   color: var(--primary-text-color--);
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-/*clients section*/
+.team-social-lincs {
+  display: flex;
+  justify-content: center;
+}
+.team-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.team-elipse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.team-social-icon {
+  fill: currentColor;
+}
+.team-elipse:hover {
+  color: var(--primary-white-color--);
+  background-color: var(--accent-color--);
+}
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -392,9 +416,6 @@ a .logo-past {
   justify-content: center;
   align-items: center;
 }
-.elipse {
-  fill: currentColor;
-}
 .elipse:hover,
 .elipse:focus {
   background-color: var(--accent-color--);
@@ -406,6 +427,7 @@ a .logo-past {
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: currentColor;
 
   width: 44px;
   height: 44px;
