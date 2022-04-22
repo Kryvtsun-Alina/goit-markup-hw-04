@@ -391,6 +391,16 @@ a .logo-past {
   align-items: center;
 }
 .elipse {
+  fill: currentColor;
+}
+.elipse:hover,
+.elipse:focus {
+  background-color: var(--accent-color--);
+}
+.social-lincs-item:not(:last-child) {
+  margin-right: 10px;
+}
+.elipse {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -399,9 +409,6 @@ a .logo-past {
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-}
-.social-lincs-item:not(:last-child) {
-  margin-right: 10px;
 }
 .social-icon {
   fill: var(--primary-white-color--);
