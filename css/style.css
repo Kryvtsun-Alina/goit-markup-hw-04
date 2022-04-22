@@ -106,7 +106,10 @@ img {
   margin-right: 50px;
 }
 .contacts {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--primary-text-color--);
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -120,6 +123,10 @@ img {
 .contacts:hover,
 .contacts:focus {
   color: var(--accent-color--);
+}
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 /*hero*/
 .hero .container {
